@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/react.svg";
 import "./Navbar.css";
@@ -24,6 +23,9 @@ const Navbar = () => {
             </li>
             <li className="hover:text-accent duration-300">
               <Link to={"/List"}>List</Link>
+            </li>
+            <li className="hover:text-accent duration-300">
+              <Link to={"/Download"}>Download</Link>
             </li>
             <li className="hover:text-accent duration-300">
               <Link to={"/Settings"}>Settings</Link>
