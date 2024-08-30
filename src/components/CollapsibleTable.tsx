@@ -23,7 +23,7 @@ function RowHandler(Input: FILE): RowT {
     return {
       ...Input,
       progress: -1,
-      packetNb: -1,
+      packetNb: 1,
       state: StateS.NEW(Input),
     };
   }
